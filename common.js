@@ -1,3 +1,5 @@
-window.onload = function() {
-    document.getElementById('audio').play();
-}
+$(document).ready(function(){
+    $('#myAudio').change(function(){
+        $('#myAudio').play();
+    });
+});
