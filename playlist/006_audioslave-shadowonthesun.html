@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>UNDEFINED</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+    </head>
+    <body>
+        <h1 id="musicianName">UNDEFINED</h1>
+        <div id="albumArea">
+            <img id="jacket" src="../img/jacket/audioslave-shadowonthesun.jpg" />
+            <img id="album" class="rotating" src="../img/album/audioslave-shadowonthesun.png" />
+        </div>
+
+        <div id="playerArea">
+            <a href="./005_audioslave-setitoff.html">
+                <img src="../img/res/left-arrow.png" class="arrow" />
+            </a>
+            <a href="./001_audioslave-cochise.html">
+                <img src="../img/res/right-arrow.png" class="arrow right" />
+            </a>
+        </div>
+
+        <!-- Chrome -->
+        <iframe src="../audio/audioslave-shadowonthesun.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+
+        <audio autoplay loop id="audioAudio">
+            <source src="../audio/audioslave-shadowonthesun.mp3" />
+        </audio>
+    </body>
+</html>
